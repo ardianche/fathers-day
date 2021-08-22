@@ -8,13 +8,18 @@
                 Chores
             </span>
             <span> 
-                Average Consumptions
+                Average Cons.
             </span>
+        </div>
+        <div class="header-wrapper__right-icons">
+            <img src="../assets/chores/Sweeping.svg" alt="">
+            <img src="../assets/chores/gas.svg" alt="">
         </div>
     </div>
 </template>
 
 <script>
+
 export default {
     name: 'Header',
     data: () => {

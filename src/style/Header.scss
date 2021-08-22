@@ -1,5 +1,37 @@
 @import './global.scss';
 
+@media screen and (max-width: 525px) {
+    .header-wrapper {
+        padding: 5px !important;
+
+        &__right {
+            display: none;
+        }
+
+        &__right-icons {
+            display: block;
+            img {
+                max-height: 25px;
+                &:first-child {
+                    margin-right: 35px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 725px) {
+    .header-wrapper {
+        &__right {
+            display: block;
+        }
+
+        &__right-icons {
+            display: none;
+        }
+    }
+}
+
 .header-wrapper {
     height: 74px;
     background-color: $darkPurple;
@@ -17,5 +49,8 @@
         span:first-child {
             margin-right: 50px;
         }
+    }
+    &__right-icon {
+        display: none;
     }
 }

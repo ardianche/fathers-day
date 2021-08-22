@@ -4,6 +4,13 @@
 
 }
 
+@media screen and (max-width: 425px) {
+    .card-wrapper {
+        max-width: 141px !important;
+        width: 141px !important;
+    }
+}
+
 .card-wrapper {
     width: 206px;
     height: 227px;

@@ -19,7 +19,12 @@
                 <div class="button">
                     <Button :config="buttonConfig" @clicked="calculate()"/>
                 </div>
-                <span>How does it work ?</span>
+                <div class="tutorial">
+                  <span> How does it work ? </span>
+                    <div class="tutorial__tooltip">
+                      <p> Our Father’s Day Chore Calculator tells you exactly what the children need to do to pay you back for your hard-earned petrol. Simply enter the number of miles you rack up in Dad’s taxi per week, and we’ll give them a list of ‘repayment’ tasks. </p>
+                    </div>
+                </div>
               </div>
             </div>
           </template>

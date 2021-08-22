@@ -9,3 +9,11 @@
         z-index: 1;
     }
 }
+
+@media screen and (max-width: 525px) {
+    .home {
+        &-content {
+            padding: 15px !important;
+        }
+    }
+}

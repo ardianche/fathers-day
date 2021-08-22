@@ -2,6 +2,33 @@
 
 
 
+@media screen and (max-width: 525px) {
+    .content-wrapper {
+        .content-inner-container   {
+            padding: 45px !important;
+            &__calculator {
+                max-width: 100% !important;
+
+                .tutorial {
+                    &__tooltip {
+                        bottom: 31px !important;
+                    }
+                }
+
+            }
+            &__cards {
+                display: grid;
+                /* grid-template-columns: 1fr; */
+                grid-template-columns: repeat( auto-fit, minmax(141px, 1fr) ) !important;
+                width: 100%;
+                overflow-y: scroll;
+                max-height: 440px;
+            }
+        }
+    }
+}
+
+
 .content-wrapper {
     background-color: white;
     border: 0.62px solid #E2E2E2;
@@ -45,41 +72,45 @@
                     font-size: 18px;
                 }
             }
-            // .button button {
-            //     border: unset;
-            //     padding: 16px 100px;
-            //     border-radius: 25px;
-            //     background: #4387E8;
-            //     color: white;
-            //     font-weight: 600;
-            //     outline: none;
-            //     &:hover {
-            //         cursor: pointer;
-            //     }
-            //     a {
-            //         text-decoration: none;
-            //         color: white;
-            //     }
-            // }
-            // .button {
-            //     display: flex;
-            //     flex-direction: column;
-            //     span {
-            //         font-weight: 700;
-            //         margin-top: 28px;
-            //         color: $darkBlue;
-            //         &:hover {
-            //             cursor: pointer;
-            //         }
-            //     }
-            // }
+            .tutorial {
+                font-weight: 700;
+                margin-top: 28px;
+                color: $darkBlue;
+                position: relative;
+                cursor: pointer;
+                &__tooltip {
+                    visibility: hidden;
+                    background-color: #89CE94;
+                    color: #fff;
+                    text-align: center;
+                    padding: 15px;
+                    border-radius: 6px;
+                    position: absolute;
+                    height: 0px;
+                    z-index: 999;
+                    display:none;
+                }
+                
+                &:hover, &:active{
+                    .tutorial__tooltip {
+                        visibility: visible;
+                        height: unset !important;
+                        width: unset !important;
+                        display:block;
+                        z-index: 999;
+                        color: white;
+                    }
+                }
+            }
         }
+
         &__cards {
             display: grid;
             /* grid-template-columns: 1fr; */
-            grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+            grid-template-columns: repeat( auto-fit, minmax(206px, 1fr) );
             width: 100%;
             overflow-y: scroll;
+            max-height: 440px;
         }
 
         &__footer {
