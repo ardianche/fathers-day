@@ -78,6 +78,7 @@
                 color: $darkBlue;
                 position: relative;
                 cursor: pointer;
+                align-self: center;
                 &__tooltip {
                     visibility: hidden;
                     background-color: #89CE94;
