@@ -1,0 +1,21 @@
+@import './global.scss';
+
+.header-wrapper {
+    height: 74px;
+    background-color: $darkPurple;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 150px;
+    &__left {
+        img {
+            min-height: 37px;
+        }
+    }
+    &__right {
+        span:first-child {
+            margin-right: 50px;
+        }
+    }
+}

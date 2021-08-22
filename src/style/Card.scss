@@ -1,0 +1,41 @@
+@import './global.scss';
+
+@function retrieveColor($index) {
+
+}
+
+.card-wrapper {
+    width: 206px;
+    height: 227px;
+    background-color: $card2;
+    border: unset;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 71px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    &:hover{
+        position: relative;
+        bottom: 6px;
+        transition: top ease-in 0.9s;
+        cursor: pointer;
+    }
+    &__header {
+        span {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-weight: 900;
+            font-size: 19px;
+        }
+        .icon {
+            max-height: 75px;
+            max-width: 75px;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import url("https://use.typekit.net/ant0dsd.css");
+
+
+$darkPurple : #23123A;
+$lightSun : #EEE0CB;
+$oceanBlue : #266DD3;
+$darkBlue : #266DD3;
+
+$background: #F8F1E7;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "proxima-nova", sans-serif;
+    background-color: $background;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: unset;
+    padding: unset;
+}
+
+
+/* 
+    Colors for cards: 
+*/
+
+$card1 : #24A2FF; 
+$card2 : #360568; 
+$card3 : #89CE94; 
+$card4 : #FF495C;
+$card5 : #FCA311;
+

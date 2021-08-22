@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+  <g id="Bed" transform="translate(0 -5.5)">
+    <g id="Group_16098" data-name="Group 16098" transform="translate(0 5.5)">
+      <g id="Group_16097" data-name="Group 16097" transform="translate(0 0)">
+        <path id="Path_218" data-name="Path 218" d="M42.667,74.667h0Z" transform="translate(0 -32)" fill="#fff"/>
+        <path id="Path_219" data-name="Path 219" d="M67.187,224H7.812C3.506,224,0,232.415,0,242.75v52.5C0,297.32.7,299,1.563,299s1.563-1.68,1.563-3.75V284h68.75v11.25c0,2.07.7,3.75,1.563,3.75S75,297.32,75,295.25v-52.5C75,232.415,71.494,224,67.187,224Zm4.687,52.5H3.125V269h68.75v7.5Z" transform="translate(0 -224)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

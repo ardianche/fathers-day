@@ -1,0 +1,30 @@
+@import './global.scss';
+
+.button button {
+    border: unset;
+    padding: 16px 100px;
+    border-radius: 25px;
+    background: #4387E8;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    &:hover {
+        cursor: pointer;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    span {
+        font-weight: 700;
+        margin-top: 28px;
+        color: $darkBlue;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

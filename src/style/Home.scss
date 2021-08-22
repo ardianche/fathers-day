@@ -1,0 +1,11 @@
+.home {
+    &-content {
+        padding: 65px 150px;
+    }
+    .super-dad {
+        position: fixed;
+        bottom: -30px;
+        left: -40px;
+        z-index: 1;
+    }
+}
